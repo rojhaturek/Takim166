@@ -1,7 +1,7 @@
 # Sprint 1 Raporu 
 
 ## Takım İsmi
-EduAI
+Takım 166
 
 ## Takım Logosu
 *(İlerleyen süreçte tasarlanacaktır)*
