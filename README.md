@@ -4,7 +4,9 @@ Takım166
 ### Takım Elemanları
 | İsim         | Rol                                                                 |
 |--------------|----------------------------------------------------------------------|
-| Rojhat Ürek  | Product Owner, Scrum Master, Developer (Fullstack), AI & Backend Specialist, UI/UX Designer |
+| Rojhat Ürek  | Product Owner, Scrum Master |
+| Berkay Üzer | Developer  |
+| İdil Ergünay  | Developer  |
 
 ### Proje İsmi
 EduAI: Yapay Zeka Destekli Kişisel Eğitim Platformu
