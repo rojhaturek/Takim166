@@ -35,8 +35,7 @@
 ---
 
 ## Screenshot
-
-
+![Sprint Board](screenshots/sprint_board.png)
 ---
 
 ## Sprint Review
