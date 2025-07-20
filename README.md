@@ -27,11 +27,12 @@ EduAI, kullanıcıların seçtikleri sınava yönelik kişiselleştirilmiş eği
 - Bireysel çalışma programı isteyen tüm öğrenciler
 
 ### Product Backlog
-- [Miro Backlog Board Linki buraya eklenecek]
+- [🧠 Miro Sprint & Backlog Board](https://miro.com/app/board/uXjVJcK3pVk=/?share_link_id=373733337879)  
+  *Bu board, EduAI projesinin sprint planlamaları, görev takipleri ve backlog yönetimi için aktif olarak kullanılmaktadır. Görevler To Do, In Progress ve Done sütunlarına göre organize edilmiştir.*
 
 ---
 
-### 🔄 Sprint 1
+# 🔄 Sprint 1
 
 #### Sprint Notları
 - User Story'ler product backlog içerisinde oluşturulmuştur. Her item detaylı şekilde Miro backlog'da bulunmaktadır.
@@ -72,3 +73,76 @@ EduAI, kullanıcıların seçtikleri sınava yönelik kişiselleştirilmiş eği
 ---
 
 📄 [Sprint 1 orijinal .md dosyasını görüntülemek için tıklayın](BootcampFiles/1.%20Sprint/sprint1.md)
+
+---
+
+# 🔄 Sprint 2
+
+## Sprint Notları
+- Sprint 2’de geliştirme süreci aktif olarak başlamıştır.
+- Öncelikli hedefler: Kullanıcı kayıt sistemi, sınav seçimi modülü ve kullanıcı tanıma testinin entegrasyonu.
+- Backend yapısı (FastAPI) kuruldu ve frontend tarafında kullanıcı akışı planlandı.
+- Bu sprintin ortasında Berkay Üzer ve İdil Ergünay projeye dahil olmuşlardır.
+- Takım arkadaşları ile birlikte sonraki sprintlerde aktif geliştirme birlikte yürütülecektir.
+- Sprint 2 görevlerinin büyük kısmı sprint başında bireysel olarak planlandığı için rollerin paylaşımı Sprint 3 itibariyle yansıtılacaktır.
+
+---
+
+## Tahmin Edilen Tamamlanacak Puan
+- 100 puan
+
+---
+
+## Tahmin Mantığı
+- Toplam 300 puanlık backlog’un Sprint 1 planlamasında sadece fikir geliştirme yapılabildiği için geliştirme ağırlıklı yük Sprint 2’ye kaydırıldı.
+- Kullanıcı yönetimi, AI entegrasyonunun ilk versiyonu ve test sisteminin temel modülleri 100 puanlık iş yükü olarak planlandı.
+
+---
+
+## Daily Scrum
+- Bireysel geliştirme süreci her gün sabah planlama ve akşam kısa özet şeklinde günlük olarak Slack Notlarım dosyasına kaydedildi.
+- Günlük planlama mantığı: “Bugün hangi modül geliştirilecek? Hangi adım bitirildi? Blocker var mı?”
+
+---
+
+## Sprint Board Updates
+- Miro üzerinde sprint board aktif olarak kullanıldı.
+- Her görev kartı için tamamlanma durumu güncellendi (To Do → In Progress → Done).
+- Kart renkleri:
+  - 🟥 Pembe: Yazılım
+  - 🟪 Mor: AI entegrasyonu
+  - 🟩 Yeşil: UI/UX tasarım
+
+---
+
+## Screenshot
+![Sprint Board](BootcampFiles/2.%20Sprint/screenshots/sprint_board.png)
+---
+
+## Sprint Review
+- Sprint boyunca kullanıcı kayıt, hedef sınav seçimi ve ilk yapay zeka tanıma modülü geliştirildi.
+- Backend servisleri test edildi, Gemini API ile ilk entegre içerik başarıyla döndürüldü.
+- Kullanıcıdan gelen girdilere göre seviye tespiti yapan ön model oluşturuldu.
+- Süreç planlanan akışa uygun ilerledi, plan dışı bir blokaj yaşanmadı.
+- Takım yapısında değişiklik oldu: Berkay Üzer ve İdil Ergünay projeye dahil oldu.
+- Bu değişiklikle birlikte görevlerin bölüşümü yapılacak olup Sprint 3'e daha verimli ve iş bölümlü şekilde girilecektir.
+
+---
+
+## Sprint Retrospective
+
+**İyi Yönler:**
+- AI modülü başarıyla çalıştı.
+- Kullanıcı deneyimi odaklı basit bir UI geliştirildi.
+- Kod yapısı modüler şekilde oluşturuldu.
+
+**Geliştirilecek Yönler:**
+- Test analiz modülü eksik kaldı, Sprint 3’e taşındı.
+- Geliştirme temposu düzenliydi ancak zaman planlamasında iyileştirme yapılabilir.
+
+**Kararlar:**
+- Sprint 3’te konu bazlı test oluşturma ve yanıt analizi modülüne öncelik verilecek.
+- Kullanıcıdan toplanan verilerin loglanması ve ilerleme kaydı tutulması eklenecek.
+
+---
+
