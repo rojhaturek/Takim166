@@ -145,4 +145,86 @@ EduAI, kullanıcıların seçtikleri sınava yönelik kişiselleştirilmiş eği
 - Kullanıcıdan toplanan verilerin loglanması ve ilerleme kaydı tutulması eklenecek.
 
 ---
+# 📘 Sprint 3 Raporu 
+
+---
+
+## Sprint Notları
+- Sprint 3, **final sprint** olup ürünün yarışmaya teslim edilecek son sürümüne odaklanılmıştır.  
+- Ana hedefler:  
+  1. *Test-Analiz* modülünün tamamlanması  
+  2. Öğrenci ilerleme panosunun (dashboard) oluşturulması  
+  3. Kod tabanının refaktörü + CI kurulumu  
+  4. Canlı demo deploy’u ve teslim paketlerinin (ZIP + video) hazırlanması  
+- Projenin tam kaynak kodu ve dokümantasyonu **`eduai_fullstack_ai.zip`** olarak depoya eklendi.  
+- 1 dakikalık tanıtım videosu YouTube’a yüklendi (link aşağıda).
+
+---
+
+## Tahmin Edilen Tamamlanacak Puan
+- **100 SP**
+
+### Tahmin Mantığı
+| Modül                           | Story Point |
+|---------------------------------|-------------|
+| Test-Analiz modülü              | 40 SP       |
+| İstatistik / Dashboard          | 20 SP       |
+| Refaktör & Temiz Kod            | 15 SP       |
+| Deploy & Demo                   | 15 SP       |
+| Sunum / Video / Paketleme       | 10 SP       |
+| **Toplam**                      | **100 SP**  |
+
+---
+
+## Daily Scrum
+- Her sabah 09 : 30 Discord stand-up → özetler Slack **`#daily-logs`** kanalına.  
+- Format “*Done / Blocker / Plan*” olarak kaydedildi.
+
+---
+
+## Sprint Board Updates
+- Görevler Miro board’da *To Do → In Progress → Done* akışıyla yönetildi.  
+- **Renk kodları:** 🟥 Kodlama, 🟪 AI-Entegrasyon, 🟩 UI/UX, 🟦 Dokümantasyon.
+
+### 📸 Sprint Board Ekran Görüntüsü
+![Sprint 3 Board](https://github.com/rojhaturek/Takim166/blob/main/BootcampFiles/3.sprint/screenshot/Ekran%20Resmi%202025-08-03%2023.27.21.png?raw=true)
+
+![Board Görseli 1](https://github.com/rojhaturek/Takim166/blob/main/BootcampFiles/3.sprint/screenshot/Ekran%20Resmi%202025-08-03%2023.30.37.png?raw=true)
+
+![Board Görseli 2](https://github.com/rojhaturek/Takim166/blob/main/BootcampFiles/3.sprint/screenshot/Ekran%20Resmi%202025-08-03%2023.31.48.png?raw=true)
+---
+
+## Screenshot — Uygulama
+- Öğrenci ilerleme grafiği  
+- Konu bazlı test üretim ekranı  
+- AI geri bildirim modal’ı  
+
+*(Görseller: `BootcampFiles/3. Sprint/screenshots/` klasöründe)*
+
+---
+
+## Sprint Review
+- **Test-Analiz Modülü:** Gemini destekli soru üretimi → öğrenci cevaplarını değerlendirip konu-bazlı eksik listesi çıkarıyor.  
+- **İlerleme Panosu:** Haftalık/aylık doğru-yanlış grafikleri + ısı haritası.  
+- **Refaktör & CI:** Kod modülerleştirildi, GitHub Actions pipeline ile lint-test eklendi.  
+- **Deploy & Demo:**  
+  - Frontend → **Vercel**  
+  - Backend → **Railway**  
+  - Canlı demo linki README’de.  
+- **Teslim Dokümanları:** ZIP dosyası, sprint raporları, Miro linki ve video tamamlandı.
+
+---
+
+## Sprint Retrospective
+
+| Güçlü Yönler | İyileştirilecekler |
+|--------------|-------------------|
+| Takım iletişimi ve net görev bölüşümü | Video çekim sürecinde zaman sıkıştı |
+| AI-modülü hedeflenen performansı yakaladı | Dashboard UX için daha fazla kullanıcı testi gerek |
+| Kod kalitesi yükseldi, CI eklendi | Commit mesaj standardı yeknesaklaştırılmalı |
+
+**Kararlar**
+1. Demo Day geri bildirimine göre “öğrenme öneri motoru” yeniden eğitilecek.  
+2. Mobil uyumlu UI için ayrı sprint planlanacak (community edition sonrası).  
+3. `main` branch’e merge kuralı → CI testlerinin geçmesi zorunlu olacak.
 
